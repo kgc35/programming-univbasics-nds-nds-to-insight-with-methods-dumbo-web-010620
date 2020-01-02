@@ -6,12 +6,15 @@ require 'directors_database'
 
 #pp directors_database
 def gross_for_director(director_data)
-#  num_directors = director_data.length;
-#  total =0;
-pp director_data
-#  num_directors.times do |director_index|
-#    num_movies =
-#total += director_data[director_index][:movies][0][:worldwide_gross]
+total = 0;
+num_movies = director_data[:movies].length;
+
+num_movies.times do |index|
+  total += director_data[:movies][index][:worldwide_gross]
+end
+
+total
+
 end
 
 # Write a method that, given an NDS creates a new Hash
