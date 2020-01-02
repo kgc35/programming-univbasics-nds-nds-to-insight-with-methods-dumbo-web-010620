@@ -28,11 +28,11 @@ num_directors = nds.length;
 
 #num_directors.times do |director_index|
   director_hash = nds[0];
+  print director_hash
   director_name = director_hash[:name]
-  print director_name
-  director_gross = gross_for_director[director_hash];
-  print director_gross
-  result[director_name] = director_gross;
+  #director_gross = gross_for_director[director_hash];
+  #print director_gross
+  #result[director_name] = director_gross;
 #end
 
 result
