@@ -27,7 +27,7 @@ result = {};
 num_directors = nds.length;
 
 #num_directors.times do |director_index|
-  director_hash = nds[director_index]
+  director_hash = nds[0]
   print director_hash
   director_name = director_hash[:name]
   print director_name
