@@ -10,7 +10,7 @@ def gross_for_director(director_data)
 #  total =0;
 pp director_data
 #  num_directors.times do |director_index|
-#    num_movies = 
+#    num_movies =
 #total += director_data[director_index][:movies][0][:worldwide_gross]
 end
 
