@@ -22,6 +22,8 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
+  pp nds
+  
   result = {}
   nil
 end
