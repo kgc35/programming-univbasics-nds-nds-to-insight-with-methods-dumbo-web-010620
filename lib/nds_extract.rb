@@ -23,7 +23,7 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   #pp nds
-result = {}
+result = {};
 num_directors = nds.length;
 
 num_directors.times do |director_index|
