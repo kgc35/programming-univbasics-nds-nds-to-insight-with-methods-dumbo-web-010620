@@ -26,11 +26,12 @@ def directors_totals(nds)
 result = {};
 num_directors = nds.length;
 
-#num_directors.times do |director_index|
+num_directors.times do |director_index|
   director_hash = nds[0];
   director_name = director_hash[:name]
   director_gross = gross_for_director(director_hash);
   result[director_name] = director_gross;
+end
 
 result
 
