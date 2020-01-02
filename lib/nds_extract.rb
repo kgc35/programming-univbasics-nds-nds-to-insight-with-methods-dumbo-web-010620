@@ -22,8 +22,17 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  pp nds
+  #pp nds
+result = {}
+num_directors = nds.length;
 
-  result = {}
-  nil
+num_directors.times do |director_index|
+  director_hash = nds[director_index]
+  director_name = director_hash[:name]
+  director_gross = gross_for_director[director_hash];
+  result[director_name] = director_gross;
+end
+
+result
+
 end
