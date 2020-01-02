@@ -30,7 +30,6 @@ num_directors = nds.length;
   director_hash = nds[0];
   director_name = director_hash[:name]
   director_gross = gross_for_director(director_hash);
-  print director_gross
   result[director_name] = director_gross;
 
 result
